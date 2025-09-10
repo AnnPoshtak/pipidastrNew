@@ -1,0 +1,100 @@
+body{
+    background-color: black;
+}
+h1{
+    padding-top: 50px;
+    text-align: center;
+    font-size: 30px;
+    color: #ffffff;
+}
+
+.persons{
+    padding-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.girls{
+    width: 230px;;
+    height: 330px;
+    background-color: black;
+    border: 5px solid white;
+}
+
+.photo{
+    width: 200px;
+    height: 300px;
+}
+
+.girls:hover{
+    border: 7px solid darkturquoise;
+    border-radius: 15px;
+}
+
+.go{
+    display: none;
+    width: 10%;
+    height: 20%;
+    position: absolute;
+    bottom: 0;
+    font-size: 300%;
+}
+#left{
+    left: 0;
+}
+
+#right{
+    right: 0;
+}
+
+#pipidastr{
+    display: None;
+    width: 200px;
+}
+
+#drop{
+    display: None;
+    width: 3%;
+    position: absolute;
+    left: 47%;
+    top: 80px;
+}
+
+.pipidastr{
+    display:flex;
+    justify-content: center;
+}
+
+#Ann, #Alona, #Polina{
+    display: None;
+    width: 200px;
+    height: 300px;
+    position: absolute;
+    bottom: 0;
+    left: 42%
+}
+
+.hearts{
+    display: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 300%
+}
+
+
+#gameOver{
+    display: none;
+    text-align: center;
+    position: absolute;
+    font-size: 300%;
+
+
+    transform: translate(-50%);
+    left: 50%;
+    top: 30%;
+}
+h3{
+  margin-top: 50px;  
+}
